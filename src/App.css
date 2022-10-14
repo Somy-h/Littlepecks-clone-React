@@ -554,14 +554,6 @@ section {
   width: 65%;
 }
 
-/* .vive-para {
-  bottom: 2rem;
-  right: 2rem;
-  position: absolute;
-  text-align: start;
-  width: 65%;
-} */
-
 /* Drink Menu */
 .drink-menu--container {
   margin-top: 4rem;
@@ -629,8 +621,6 @@ span.gray {
 }
 
 .sandwich-img {
-  /* position: relative; */
-  /* z-index: 1; */
   width: 65%;
   border-radius: 20px;
   min-width: 380px;
@@ -695,7 +685,7 @@ footer {
   align-items: center;
   padding-top: 5rem;
   padding-bottom: 1rem;
-  margin-top: 6rem;
+  margin-top: 10rem;
 }
 
 footer h1 {
