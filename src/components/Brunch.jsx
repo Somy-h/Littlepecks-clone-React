@@ -16,7 +16,7 @@ export default function Brunch() {
   return (
     <div className="brunch--container">
       <div className={`brunch-para ${isVisible > 0 ? 'ani' : ''}`}> 
-          <h5>BEST MEALS START WITH B</h5>
+          <p className="brunch-desc">BEST MEALS START WITH B</p>
           <h1 ref={brunchRef}>BRUNCH<br></br>
           <span className="yellow">LIFE IS</span><br></br>
           <span className="gray">BAE</span></h1>

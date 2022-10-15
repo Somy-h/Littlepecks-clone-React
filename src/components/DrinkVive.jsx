@@ -8,7 +8,7 @@ export default function DrinkVive() {
   useEffect( ()=> {
     const observer = new IntersectionObserver((entries) => {
       const entry = entries[0];
-      setIsVisible(entry.isIntersecting);
+      setIsVisible((prevValue => entry.isIntersecting));
     });
     observer.observe(drinkRef.current);
   }, []);

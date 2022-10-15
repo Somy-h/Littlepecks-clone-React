@@ -1,5 +1,3 @@
-import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
@@ -12,14 +10,6 @@ import Sandwich from './components/Sandwich'
 import Footer from './components/Footer'
 
 function App() {
-
-  // const [offsetY, setOffsetY] = useState(0);
-  // const handleScroll = () => setOffsetY(window.pageYOffset);
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => window.removeEventListener("scroll", handleScroll)
-  // }, []);
 
   return (
     <div className="App">

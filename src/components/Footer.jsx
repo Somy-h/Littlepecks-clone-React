@@ -8,7 +8,6 @@ export default function Footer() {
     const observer = new IntersectionObserver((entries) => {
       const entry = entries[0];
       setIsVisible(entry.isIntersecting);
-      console.log(entry.isIntersecting)
     });
     observer.observe(footerRef.current);
   }, []);

@@ -25,9 +25,9 @@ export default function FoodMenu() {
   })
 
   return (
-    <section className="foodMenu--container">
+    <section id="menu" className="foodMenu--container">
       <div className="foodMenu-white-div">
-        <h1 ref={menuRef}>FOOD MENU</h1>
+        <h1 className="center" ref={menuRef}>FOOD MENU</h1>
         <div className="food-menu">
           <div className={`grid-item ${isVisible > 0 ? 'active' : ''}`}>
             {/* <div className="div-block yellow"></div> */}

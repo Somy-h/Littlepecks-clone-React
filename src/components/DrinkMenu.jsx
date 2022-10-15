@@ -18,7 +18,7 @@ export default function DrinkMenu () {
   return (
     <section className="drink-menu--container">
       <div className="foodMenu-white-div">
-        <h1>DRINK MENU</h1>
+        <h1 className="center">DRINK MENU</h1>
         <div className="food-menu">
           <div className="drink-items">
             <h3 className="menu-blue">COFFEE</h3>

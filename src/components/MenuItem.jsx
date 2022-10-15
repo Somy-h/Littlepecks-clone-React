@@ -1,6 +1,6 @@
 import React from 'react';
 export default function MenuItem(props) {
-  //console.log(props)
+  
   return (
     <div className={`menu-item-container ${props.color}`}>
       <div className="menu-block flex-column">
