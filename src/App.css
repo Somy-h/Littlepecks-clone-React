@@ -181,17 +181,18 @@ nav ul {
 }
 
 .hamburger_container {
-  display: none;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
   background-color: #fff;
+  border-radius: 50%;
+  display: none;
+  height: 32px;
   padding:0;
+  width: 32px;
 }
 
 .hamburger {
   background-color: transparent;
   border: 0;
+  margin:0;
   padding:0;
   position: relative;
   height: 32px;
@@ -200,7 +201,7 @@ nav ul {
 
 /* Main */
 .main--container {
-  background: url("./images/hero.jpg") no-repeat center center;
+  background: url("/images/hero.jpg") no-repeat center center;
   background-size: cover;
   background-position: center 60%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
